@@ -1,4 +1,5 @@
 import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
 
 public class Main {
@@ -13,7 +14,7 @@ public class Main {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
- /*       String text = "\nHello";
+        String text = "\nHello";
         try {
             FileOutputStream fos = new FileOutputStream("C://java/test.txt", true);
             byte[] bufer = text.getBytes();
@@ -21,6 +22,5 @@ public class Main {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-   */
     }
 }
