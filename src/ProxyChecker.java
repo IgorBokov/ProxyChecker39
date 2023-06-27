@@ -52,6 +52,7 @@ public class ProxyChecker {
             while ((i = is.read()) != -1) {
                 System.out.print((char) i);
             }
+            System.out.println("\tРАБОТАЕТ");
         } catch (IOException e) {
             System.out.println(ip + "\t-\tНЕ РАБОТАЕТ");
         }

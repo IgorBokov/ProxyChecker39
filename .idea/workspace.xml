@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13b8546a-838d-4721-a5fe-ae222a6a9ddf" name="Changes" comment="proxy">
+    <list default="true" id="13b8546a-838d-4721-a5fe-ae222a6a9ddf" name="Changes" comment="thread 2 type">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MultiThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MultiThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ProxyChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProxyChecker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +94,7 @@
       <updated>1687791979513</updated>
       <workItem from="1687791980545" duration="10305000" />
       <workItem from="1687807977265" duration="1818000" />
-      <workItem from="1687881162321" duration="12633000" />
+      <workItem from="1687881162321" duration="13772000" />
     </task>
     <task id="LOCAL-00001" summary="proxy">
       <option name="closed" value="true" />
@@ -113,7 +112,15 @@
       <option name="project" value="LOCAL" />
       <updated>1687809128473</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="thread 2 type">
+      <option name="closed" value="true" />
+      <created>1687896215444</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1687896215444</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +129,23 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="proxy" />
-    <option name="LAST_COMMIT_MESSAGE" value="proxy" />
+    <MESSAGE value="thread 2 type" />
+    <option name="LAST_COMMIT_MESSAGE" value="thread 2 type" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ProxyChecker.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ProxyChecker.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
