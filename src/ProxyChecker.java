@@ -18,13 +18,20 @@ public class ProxyChecker {
                     String ip = socket.split(":")[0];
                     String port = socket.split(":")[1];
                     System.out.println("IP:\t" + ip + " \tPORT:\t " + port);
-                    Thread thread = new Thread(new Runnable() {
+               /*     Thread thread1 = new Thread(new Runnable() {
                         @Override
                         public void run() {
                             checkProxy(ip, Integer.parseInt(port));
                         }
                     });
+                    thread1.start();*/
+
+               /*     MyThread thread2 = new MyThread(ip, Integer.parseInt(port));
+                    thread2.start();*/
+
+                    Thread thread = new Thread(new MyRunnableClass(ip, Integer.parseInt(port)));
                     thread.start();
+
                     socket = "";
                 } else {
                     socket += (char) i;
@@ -46,8 +53,7 @@ public class ProxyChecker {
                 System.out.print((char) i);
             }
         } catch (IOException e) {
-            System.out.println(ip+"\t-\tНЕ РАБОТАЕТ");
+            System.out.println(ip + "\t-\tНЕ РАБОТАЕТ");
         }
-
     }
 }
